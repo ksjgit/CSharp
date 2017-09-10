@@ -10,6 +10,8 @@ namespace Study
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("코딩의 기술[기본편] 예제 모음2017.9.10 시작");
+            Console.ReadLine();
         }
     }
 }
