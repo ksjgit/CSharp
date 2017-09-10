@@ -16,6 +16,7 @@
             System.Console.ReadLine();
             */
 
+            System.Console.WriteLine("===============");
             System.Console.WriteLine("더하기 연습");
             System.Console.WriteLine("===============");
             
