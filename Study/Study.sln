@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "열거형객체", "열거�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "형변환", "형변환\형변환.csproj", "{6242F903-9855-4E2F-AD6E-15185B0B3300}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "포인터사용", "포인터사용\포인터사용.csproj", "{09A3DCD2-28A5-4CE5-8C40-811A5FA725E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6242F903-9855-4E2F-AD6E-15185B0B3300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6242F903-9855-4E2F-AD6E-15185B0B3300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6242F903-9855-4E2F-AD6E-15185B0B3300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A3DCD2-28A5-4CE5-8C40-811A5FA725E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A3DCD2-28A5-4CE5-8C40-811A5FA725E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A3DCD2-28A5-4CE5-8C40-811A5FA725E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A3DCD2-28A5-4CE5-8C40-811A5FA725E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
