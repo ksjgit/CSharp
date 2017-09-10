@@ -1,0 +1,2 @@
+C:\C#\열거형\열거형\obj\Debug\열거형.csprojResolveAssemblyReference.cache
+C:\C#\열거형\열거형\obj\Debug\열거형.csproj.CoreCompileInputs.cache

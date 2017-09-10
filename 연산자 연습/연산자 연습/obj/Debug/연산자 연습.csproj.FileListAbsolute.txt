@@ -1,0 +1,7 @@
+C:\C#\연산자 연습\연산자 연습\bin\Debug\연산자 연습.exe.config
+C:\C#\연산자 연습\연산자 연습\bin\Debug\연산자 연습.exe
+C:\C#\연산자 연습\연산자 연습\bin\Debug\연산자 연습.pdb
+C:\C#\연산자 연습\연산자 연습\obj\Debug\연산자 연습.csprojResolveAssemblyReference.cache
+C:\C#\연산자 연습\연산자 연습\obj\Debug\연산자 연습.csproj.CoreCompileInputs.cache
+C:\C#\연산자 연습\연산자 연습\obj\Debug\연산자 연습.exe
+C:\C#\연산자 연습\연산자 연습\obj\Debug\연산자 연습.pdb

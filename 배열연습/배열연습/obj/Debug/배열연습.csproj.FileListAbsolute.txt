@@ -1,0 +1,6 @@
+C:\C#\배열연습\배열연습\bin\Debug\배열연습.exe.config
+C:\C#\배열연습\배열연습\bin\Debug\배열연습.exe
+C:\C#\배열연습\배열연습\bin\Debug\배열연습.pdb
+C:\C#\배열연습\배열연습\obj\Debug\배열연습.csproj.CoreCompileInputs.cache
+C:\C#\배열연습\배열연습\obj\Debug\배열연습.exe
+C:\C#\배열연습\배열연습\obj\Debug\배열연습.pdb
