@@ -11,7 +11,7 @@ namespace 형변환
     {
         public void SayIt()
         {
-            Console.WriteLine("I am Extended!");
+            Console.WriteLine("I am Extended!!");
         }
     }
 
