@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoXML", "LINQtoXML\LINQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "바이너리시리얼라이즈", "바이너리시리얼라이즈\바이너리시리얼라이즈.csproj", "{DA99114E-BD86-4DB3-AC35-AE8D5279FF2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "바이너리시리얼라이즈2_json", "바이너리시리얼라이즈2_json\바이너리시리얼라이즈2_json.csproj", "{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{DA99114E-BD86-4DB3-AC35-AE8D5279FF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA99114E-BD86-4DB3-AC35-AE8D5279FF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA99114E-BD86-4DB3-AC35-AE8D5279FF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
