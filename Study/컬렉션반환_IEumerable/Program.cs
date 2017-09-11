@@ -22,8 +22,8 @@ namespace 컬렉션반환_IEumerable
         static void Main(string[] args)
         {
             var r = searchItems((n) => n >= 2);
-            r.RemoveAt(1);
-            Console.WriteLine("결과는 {0}개 입니다.", r.Count);
+            //r.RemoveAt(1);
+            Console.WriteLine("결과는 {0}개 입니다.", r.Count<int>());
             Console.ReadLine();
         }
     }
