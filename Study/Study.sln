@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "인자에 함수전달", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "생성자_Create", "생성자_Create\생성자_Create.csproj", "{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "컬렉션반환_IEumerable", "컬렉션반환_IEumerable\컬렉션반환_IEumerable.csproj", "{94EBFAE4-0E47-4E27-8C55-B64F7BDED243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EBFAE4-0E47-4E27-8C55-B64F7BDED243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EBFAE4-0E47-4E27-8C55-B64F7BDED243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EBFAE4-0E47-4E27-8C55-B64F7BDED243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EBFAE4-0E47-4E27-8C55-B64F7BDED243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
