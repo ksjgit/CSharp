@@ -6,7 +6,8 @@ namespace 컬렉션반환_IEumerable
 {
     class Program
     {
-        private static List<int> searchItems(Func<int, bool> checkCondition)
+        //private static List<int> searchItems(Func<int, bool> checkCondition)
+        private static IEnumerable<int> searchItems(Func<int, bool> checkCondition)
         {
             int[] array = { 1, 2, 3 };
             var list = new List<int>();
