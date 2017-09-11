@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "인자에 함수전달", "인자에 함수전달\인자에 함수전달.csproj", "{10B12081-6FD9-4F5D-94D0-607E905045B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "생성자_Create", "생성자_Create\생성자_Create.csproj", "{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{10B12081-6FD9-4F5D-94D0-607E905045B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B12081-6FD9-4F5D-94D0-607E905045B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B12081-6FD9-4F5D-94D0-607E905045B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A79AF03-D2A1-42B1-B527-2EEB3A30C7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
