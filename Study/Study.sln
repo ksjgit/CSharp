@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "바이너리시리얼라이
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "바이너리시리얼라이즈2_json", "바이너리시리얼라이즈2_json\바이너리시리얼라이즈2_json.csproj", "{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ2", "LINQ2\LINQ2.csproj", "{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC7DE9EF-BB8D-4AA4-A0EE-678A89EC768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
