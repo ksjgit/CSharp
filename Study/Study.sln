@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "바이너리시리얼라이
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ2", "LINQ2\LINQ2.csproj", "{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToArray", "ToArray\ToArray.csproj", "{1E3C7BED-B10C-4545-BEC2-3F84C95C82F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B87E39A-CBFA-4A1D-B1A8-4BCC4C63FD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3C7BED-B10C-4545-BEC2-3F84C95C82F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3C7BED-B10C-4545-BEC2-3F84C95C82F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3C7BED-B10C-4545-BEC2-3F84C95C82F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3C7BED-B10C-4545-BEC2-3F84C95C82F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
