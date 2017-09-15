@@ -14,7 +14,7 @@ namespace LINQ3_Count
                 if (winners.Contains(i))
                     Console.WriteLine("우승했기 때문에 상금 {0}원 수여", winners.Count(c => c == i) * 1000000);
                 else
-                    Console.WriteLine("상금 없음");  
+                    Console.WriteLine("상금 없음");
             }
              
             Console.ReadLine();
