@@ -16,7 +16,7 @@ namespace LINQ3_Count
                 else
                     Console.WriteLine("상금 없음");
             }
-
+             
             Console.ReadLine();
         }
     }
