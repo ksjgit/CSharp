@@ -10,11 +10,10 @@ namespace 순차처리
         static void Main(string[] args)
         {
             File.Delete("sample.text");
-            Task.Run(() =>
+            Task.Delay(1000).ContinueWith((dummy) =>
             {
                 try
                 {
-                    Task.Delay(1000);
                     Console.WriteLine(File.ReadAllText("sample.text"));
                 }
                 catch (Exception e)
@@ -22,7 +21,7 @@ namespace 순차처리
                     Console.WriteLine(e);
                 }
             });
-            Thread.Sleep(500);
+            Task.Delay(500).Wait();
             File.WriteAllText("sample.text", "Hello!");
 
             Console.WriteLine("엔터키를 누르면 종료합니다.");
