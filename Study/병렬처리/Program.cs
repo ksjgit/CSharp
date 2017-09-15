@@ -17,11 +17,16 @@ namespace 병렬처리
             var t3 = Task.Run(() => { work(3, 5); });
             var t4 = Task.Run(() => { work(4, 1); });
 
-            for(;;)
-            {
-                if (t1.IsCompleted && t2.IsCompleted && t3.IsCompleted && t4.IsCompleted) break;
-                Task.Delay(100).Wait();
-            }
+            //for(;;)
+            //{
+            //    if (t1.IsCompleted && t2.IsCompleted && t3.IsCompleted && t4.IsCompleted) break;
+            //    Task.Delay(100).Wait();
+            //    Console.WriteLine("Waiting...");
+            //}
+
+            //Task.WaitAny(t1);
+            Task.WaitAll(t1, t2, t3, t4);
+
             Console.WriteLine("All Done");
             Console.ReadLine();
         }
