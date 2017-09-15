@@ -12,10 +12,10 @@ namespace 병렬처리
         }
         static void Main(string[] args)
         {
-            var t1 = Task.Run(() => { work(1, 2); });
-            var t2 = Task.Run(() => { work(2, 3); });
-            var t3 = Task.Run(() => { work(3, 5); });
-            var t4 = Task.Run(() => { work(4, 1); });
+            //var t1 = Task.Run(() => { work(1, 2); });
+            //var t2 = Task.Run(() => { work(2, 3); });
+            //var t3 = Task.Run(() => { work(3, 5); });
+            //var t4 = Task.Run(() => { work(4, 1); });
 
             //for(;;)
             //{
@@ -25,7 +25,14 @@ namespace 병렬처리
             //}
 
             //Task.WaitAny(t1);
-            Task.WaitAll(t1, t2, t3, t4);
+            //Task.WaitAll(t1, t2, t3, t4);
+
+            Parallel.Invoke(
+                () => { work(1, 2); },
+                () => { work(2, 3); },
+                () => { work(3, 5); },
+                () => { work(4, 1); }
+                );
 
             Console.WriteLine("All Done");
             Console.ReadLine();
