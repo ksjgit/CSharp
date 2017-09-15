@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToArray", "ToArray\ToArray.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ3_Count", "LINQ3_Count\LINQ3_Count.csproj", "{D5873348-25E9-4CC1-A8CA-11CDFB18E613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "순차처리", "순차처리\순차처리.csproj", "{F94A4D20-CAF4-4EE4-8812-B2E2A1B63F9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D5873348-25E9-4CC1-A8CA-11CDFB18E613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5873348-25E9-4CC1-A8CA-11CDFB18E613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5873348-25E9-4CC1-A8CA-11CDFB18E613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94A4D20-CAF4-4EE4-8812-B2E2A1B63F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94A4D20-CAF4-4EE4-8812-B2E2A1B63F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94A4D20-CAF4-4EE4-8812-B2E2A1B63F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94A4D20-CAF4-4EE4-8812-B2E2A1B63F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
