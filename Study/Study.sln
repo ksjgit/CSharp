@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ6_OrderBy_Sort", "LINQ6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ7_긴쿼리", "LINQ7_긴쿼리\LINQ7_긴쿼리.csproj", "{4E463679-356D-4695-B1A7-BC08076F62CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ8_Cast_OfType", "LINQ8_Cast_OfType\LINQ8_Cast_OfType.csproj", "{29CF4EF2-77DD-4EA6-8422-2133964D89F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4E463679-356D-4695-B1A7-BC08076F62CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E463679-356D-4695-B1A7-BC08076F62CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E463679-356D-4695-B1A7-BC08076F62CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CF4EF2-77DD-4EA6-8422-2133964D89F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CF4EF2-77DD-4EA6-8422-2133964D89F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CF4EF2-77DD-4EA6-8422-2133964D89F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CF4EF2-77DD-4EA6-8422-2133964D89F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
