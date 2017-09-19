@@ -10,7 +10,7 @@ namespace 원격제어
     /// <summary>
     /// 원격 제어 요청 수신 이벤트 인자 클래스
     /// </summary>
-    class RecvRCInfoEventArgs : EventArgs 
+    public class RecvRCInfoEventArgs : EventArgs 
     {
         /// <summary>
         /// IP 단말 정보 - 가져오기
@@ -35,12 +35,12 @@ namespace 원격제어
         {
             IPEndPoint = RemoteEndPoint as IPEndPoint; //as 연산은 하향 캐스팅에 사용하는 참조 연산입니다.
         }
-
-        /// <summary>
-        /// 원격 제어 요청 수신 이벤트를 정의하기 위한 대리자
-        /// </summary>
-        /// <param name="sender">이벤트 통보 개체</param>
-        /// <param name="e">이벤트 처리 인자</param>
-        public delegate void RecvRCInfoEnventHandler(object sender, RecvRCInfoEventArgs e);
     }
+
+    /// <summary>
+    /// 원격 제어 요청 수신 이벤트를 정의하기 위한 대리자
+    /// </summary>
+    /// <param name="sender">이벤트 통보 개체</param>
+    /// <param name="e">이벤트 처리 인자</param>
+    public delegate void RecvRCInfoEventHandler(object sender, RecvRCInfoEventArgs e);
 }
