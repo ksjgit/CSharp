@@ -58,6 +58,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecvImageEventArgs.cs" />
+    <Compile Include="RecvKMEEventArgs.cs" />
     <Compile Include="RecvRCInfoEventArgs.cs" />
     <Compile Include="SendEventClient.cs" />
     <Compile Include="SetupClient.cs" />
