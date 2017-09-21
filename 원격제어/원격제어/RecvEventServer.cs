@@ -80,7 +80,7 @@ namespace 원격제어
             dosock.Close();
         }
 
-        void Close()
+        public void Close()
         {
             if(lis_sock != null)
             {
