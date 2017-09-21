@@ -80,6 +80,7 @@
             this.btn_setting.TabIndex = 4;
             this.btn_setting.Text = "설정하기";
             this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
             // 
             // btn_ok
             // 
@@ -90,11 +91,17 @@
             this.btn_ok.TabIndex = 5;
             this.btn_ok.Text = "원격 제어 허용";
             this.btn_ok.UseVisualStyleBackColor = true;
+            this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
+            // 
+            // timer_send_img
+            // 
+            this.timer_send_img.Tick += new System.EventHandler(this.timer_send_img_Tick);
             // 
             // noti
             // 
             this.noti.Text = "notifyIcon1";
             this.noti.Visible = true;
+            this.noti.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.noti_MouseDoubleClick);
             // 
             // MainForm
             // 
@@ -109,6 +116,8 @@
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
