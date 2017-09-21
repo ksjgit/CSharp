@@ -67,6 +67,12 @@
     <Compile Include="RecvKMEEventArgs.cs" />
     <Compile Include="RecvRCInfoEventArgs.cs" />
     <Compile Include="Remote.cs" />
+    <Compile Include="RemoteClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoteClientForm.Designer.cs">
+      <DependentUpon>RemoteClientForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SendEventClient.cs" />
     <Compile Include="SetupClient.cs" />
     <Compile Include="SetupServer.cs" />
@@ -89,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemoteClientForm.resx">
+      <DependentUpon>RemoteClientForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VirtualCursorForm.resx">
       <DependentUpon>VirtualCursorForm.cs</DependentUpon>
     </EmbeddedResource>
