@@ -30,11 +30,11 @@
         {
             this.btn_listen = new System.Windows.Forms.Button();
             this.pic1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_msg = new System.Windows.Forms.TextBox();
+            this.txt_sip = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_cip = new System.Windows.Forms.TextBox();
             this.btn_reqaccept = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             this.SuspendLayout();
@@ -61,24 +61,24 @@
             this.pic1.TabIndex = 1;
             this.pic1.TabStop = false;
             // 
-            // textBox1
+            // txt_msg
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txt_msg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(796, 41);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(266, 477);
-            this.textBox1.TabIndex = 2;
+            this.txt_msg.Location = new System.Drawing.Point(796, 41);
+            this.txt_msg.Multiline = true;
+            this.txt_msg.Name = "txt_msg";
+            this.txt_msg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_msg.Size = new System.Drawing.Size(266, 477);
+            this.txt_msg.TabIndex = 2;
             // 
-            // textBox2
+            // txt_sip
             // 
-            this.textBox2.Location = new System.Drawing.Point(58, 12);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(120, 21);
-            this.textBox2.TabIndex = 3;
+            this.txt_sip.Location = new System.Drawing.Point(58, 12);
+            this.txt_sip.Name = "txt_sip";
+            this.txt_sip.ReadOnly = true;
+            this.txt_sip.Size = new System.Drawing.Size(120, 21);
+            this.txt_sip.TabIndex = 3;
             // 
             // label1
             // 
@@ -98,13 +98,13 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "클라이언트 IP";
             // 
-            // textBox3
+            // txt_cip
             // 
-            this.textBox3.Location = new System.Drawing.Point(490, 12);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(120, 21);
-            this.textBox3.TabIndex = 5;
+            this.txt_cip.Location = new System.Drawing.Point(490, 12);
+            this.txt_cip.Name = "txt_cip";
+            this.txt_cip.ReadOnly = true;
+            this.txt_cip.Size = new System.Drawing.Size(120, 21);
+            this.txt_cip.TabIndex = 5;
             // 
             // btn_reqaccept
             // 
@@ -122,10 +122,10 @@
             this.ClientSize = new System.Drawing.Size(1074, 530);
             this.Controls.Add(this.btn_reqaccept);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_cip);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_sip);
+            this.Controls.Add(this.txt_msg);
             this.Controls.Add(this.pic1);
             this.Controls.Add(this.btn_listen);
             this.Name = "JRC_Server";
@@ -140,11 +140,11 @@
 
         private System.Windows.Forms.Button btn_listen;
         private System.Windows.Forms.PictureBox pic1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_msg;
+        private System.Windows.Forms.TextBox txt_sip;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_cip;
         private System.Windows.Forms.Button btn_reqaccept;
     }
 }
