@@ -80,7 +80,7 @@ namespace 원격제어
         //이벤트 클라이언트를 시작하는 메서드를 정의합시다.
         public void StartEventClient()
         {
-            sce = new 원격제어.SendEventClient(host_ip, NetworkInfo.EventPort); //이벤트 송신 클라이언트 개체 생성
+            sce = new SendEventClient(host_ip, NetworkInfo.EventPort); //이벤트 송신 클라이언트 개체 생성
         }
 
         public void Stop() //원격 컨트롤러 멈춤
