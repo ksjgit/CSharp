@@ -27,6 +27,8 @@ namespace 원격제어
             vcf = new VirtualCursorForm(); //가상커서 생성
             rcf = new RemoteClientForm(); //원격 호스트 화면 폼 생성 (제어당하는)
 
+            txt_msg.Text += NetworkInfo.DefaultIP + System.Environment.NewLine;
+
             Remote.Singleton.RecvedRCInfo += new RecvRCInfoEventHandler(Remote_RecvedRCInfo);
         }
 
@@ -83,7 +85,7 @@ namespace 원격제어
 
         private void btn_ok_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            //this.Hide();
 
             Remote.Singleton.RecvEventStart(); //원격제어 이벤트 수신 서버 가동
             timer_send_img.Start(); //이미지 전송 타이머 가동
@@ -108,13 +110,19 @@ namespace 원격제어
             gp.Dispose();
             try
             {
+                txt_msg.Text += sip + "/" + NetworkInfo.ImgPort.ToString() + System.Environment.NewLine;
+                txt_msg.Refresh();
+
                 ImageClient ic = new ImageClient(sip, NetworkInfo.ImgPort);
+                txt_msg.Text += sip + "/" + NetworkInfo.ImgPort.ToString() + System.Environment.NewLine;
+                txt_msg.Refresh();
+                
                 ic.SendImageAsync(bitmap, null); //이미지를 비동기로 전송
             }
             catch
             {
                 timer_send_img.Stop();
-                MessageBox.Show("서버 연결 실패");
+                MessageBox.Show(sip.ToString() + " 서버 연결 실패");
                 this.Close();
             }
         }

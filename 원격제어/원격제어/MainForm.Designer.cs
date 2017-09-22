@@ -37,6 +37,7 @@
             this.btn_ok = new System.Windows.Forms.Button();
             this.timer_send_img = new System.Windows.Forms.Timer(this.components);
             this.noti = new System.Windows.Forms.NotifyIcon(this.components);
+            this.txt_msg = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -103,11 +104,21 @@
             this.noti.Visible = true;
             this.noti.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.noti_MouseDoubleClick);
             // 
+            // txt_msg
+            // 
+            this.txt_msg.Location = new System.Drawing.Point(21, 112);
+            this.txt_msg.Multiline = true;
+            this.txt_msg.Name = "txt_msg";
+            this.txt_msg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_msg.Size = new System.Drawing.Size(505, 157);
+            this.txt_msg.TabIndex = 6;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 118);
+            this.ClientSize = new System.Drawing.Size(549, 281);
+            this.Controls.Add(this.txt_msg);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_setting);
             this.Controls.Add(this.txt_controller_ip);
@@ -133,6 +144,7 @@
         private System.Windows.Forms.Button btn_ok;
         private System.Windows.Forms.Timer timer_send_img;
         private System.Windows.Forms.NotifyIcon noti;
+        private System.Windows.Forms.TextBox txt_msg;
     }
 }
 

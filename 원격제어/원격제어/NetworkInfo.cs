@@ -20,7 +20,7 @@ namespace 원격제어
                 IPHostEntry host_entry = Dns.GetHostEntry(host_name); //호스트 엔트리 구하기
                 foreach (IPAddress ipaddr in host_entry.AddressList)
                 {
-                    if (ipaddr.AddressFamily == AddressFamily.InterNetwork)
+                    if (ipaddr.AddressFamily == AddressFamily.InterNetwork && ipaddr.ToString() != "192.168.56.1")
                     {
                         return ipaddr.ToString(); //IP주소 문자열 반환
                     }

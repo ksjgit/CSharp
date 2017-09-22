@@ -34,8 +34,6 @@ namespace 원격제어
             lis_sock.Bind(ep);
 
             lis_sock.Listen(5); //back로그 큐 크기 설정
-
-            
         }
 
         void AcceptLoop() //연결 요청을 대기하고 수락하는 AcceptLoop 메서드를 구현합시다
@@ -72,7 +70,7 @@ namespace 원격제어
             if (RecvedImage != null) //이미지 수신 이벤트가 존재하면
             {
                 IPEndPoint iep = dosock.RemoteEndPoint as IPEndPoint;
-                RecvImageEventArgs e = new 원격제어.RecvImageEventArgs(iep, ConvertBitmap(buffer));
+                RecvImageEventArgs e = new RecvImageEventArgs(iep, ConvertBitmap(buffer));
                 RecvedImage(this, e);
             }
             dosock.Close();

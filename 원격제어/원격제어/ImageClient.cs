@@ -18,8 +18,7 @@ namespace 원격제어
     public class ImageClient
     {
         Socket sock;
-
-
+        
         /// <summary>
         /// 생성자
         /// </summary>
