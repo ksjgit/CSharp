@@ -68,7 +68,7 @@ namespace 원격제어
 
         public void RecvEventStart()
         {
-            res = new 원격제어.RecvEventServer(MyIP, NetworkInfo.EventPort); //메세지 수신 서버 가동
+            res = new RecvEventServer(MyIP, NetworkInfo.EventPort); //메세지 수신 서버 가동
             res.RecvedKMEvent += new RecvKMEEventHandler(res_RecvKMEEventHandler);
         }
 

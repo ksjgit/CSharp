@@ -103,7 +103,6 @@ namespace 원격제어
             Rectangle rect = Remote.Singleton.Rect;
             Bitmap bitmap = new Bitmap(rect.Width, rect.Height);
             Graphics gp = Graphics.FromImage(bitmap);
-
             Size size2 = new Size(rect.Width, rect.Height);
 
             gp.CopyFromScreen(new Point(0, 0), new Point(0, 0), size2); //화면 복사

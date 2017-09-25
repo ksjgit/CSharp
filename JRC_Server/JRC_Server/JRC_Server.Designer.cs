@@ -47,6 +47,7 @@
             this.btn_listen.TabIndex = 0;
             this.btn_listen.Text = "서버 시작";
             this.btn_listen.UseVisualStyleBackColor = true;
+            this.btn_listen.Click += new System.EventHandler(this.btn_listen_Click);
             // 
             // pic1
             // 
@@ -114,6 +115,7 @@
             this.btn_reqaccept.TabIndex = 7;
             this.btn_reqaccept.Text = "요청수락";
             this.btn_reqaccept.UseVisualStyleBackColor = true;
+            this.btn_reqaccept.Click += new System.EventHandler(this.btn_reqaccept_Click);
             // 
             // JRC_Server
             // 
@@ -130,6 +132,7 @@
             this.Controls.Add(this.btn_listen);
             this.Name = "JRC_Server";
             this.Text = "RC 서버";
+            this.Load += new System.EventHandler(this.JRC_Server_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

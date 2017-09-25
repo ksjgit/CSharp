@@ -1,14 +1,14 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-namespace JRC_Server
+namespace JRC_Client
 {
     public static class RCInfo
     {
         public const int ListenPort = 20002; //제어 요청 대기 포트
         public const int ImgPort = 20004; //이미지 대기 포트
         public const int EventPort = 20006;  //이벤트 대기 포트
-        
+
         public static string MyIP
         {
             get
